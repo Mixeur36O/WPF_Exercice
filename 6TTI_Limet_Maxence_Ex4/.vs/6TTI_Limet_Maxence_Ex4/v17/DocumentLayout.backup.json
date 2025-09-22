@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "H:\\6TTI\\WPF\\WPF_Exercice\\6TTI_Limet_Maxence_Ex4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43EB8044-A8C6-4025-9783-9864ABCFFB87}|6TTI_Limet_Maxence_Ex4.csproj|h:\\6tti\\wpf\\wpf_exercice\\6tti_limet_maxence_ex4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43EB8044-A8C6-4025-9783-9864ABCFFB87}|6TTI_Limet_Maxence_Ex4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43EB8044-A8C6-4025-9783-9864ABCFFB87}|6TTI_Limet_Maxence_Ex4.csproj|h:\\6tti\\wpf\\wpf_exercice\\6tti_limet_maxence_ex4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43EB8044-A8C6-4025-9783-9864ABCFFB87}|6TTI_Limet_Maxence_Ex4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "H:\\6TTI\\WPF\\WPF_Exercice\\6TTI_Limet_Maxence_Ex4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "H:\\6TTI\\WPF\\WPF_Exercice\\6TTI_Limet_Maxence_Ex4\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-17T07:52:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "H:\\6TTI\\WPF\\WPF_Exercice\\6TTI_Limet_Maxence_Ex4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",

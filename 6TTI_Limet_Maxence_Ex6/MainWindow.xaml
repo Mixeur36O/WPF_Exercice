@@ -1,0 +1,20 @@
+﻿<Window x:Class="_6TTI_Limet_Maxence_Ex7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_Limet_Maxence_Ex7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Height="75" Width="250">
+            <ListBoxItem Foreground="#FFFF0707">Danse Macabre</ListBoxItem>
+            <ListBoxItem Foreground="#FF11E662">Home</ListBoxItem>
+            <ListBoxItem Foreground="#FFB0B108">Born for this</ListBoxItem>
+            <ListBoxItem Foreground="#FF8318F3">Centuries</ListBoxItem>
+            <ListBoxItem Foreground="#FFED08DA">Thriller</ListBoxItem>
+            <ListBoxItem Foreground="#FF114FE6">Le téléphone pleure</ListBoxItem>
+            <ListBoxItem Foreground="#FF13E4D5" >Beliver</ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
