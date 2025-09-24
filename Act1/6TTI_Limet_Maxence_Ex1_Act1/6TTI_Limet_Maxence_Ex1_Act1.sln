@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TTI_Limet_Maxence_Ex1_Act1", "6TTI_Limet_Maxence_Ex1_Act1.csproj", "{82DE3BBC-A96E-4723-B834-57CBDAD31EEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82DE3BBC-A96E-4723-B834-57CBDAD31EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DE3BBC-A96E-4723-B834-57CBDAD31EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DE3BBC-A96E-4723-B834-57CBDAD31EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DE3BBC-A96E-4723-B834-57CBDAD31EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {544A2A77-C83F-417B-835C-0B8AFFBD4B1B}
+	EndGlobalSection
+EndGlobal
