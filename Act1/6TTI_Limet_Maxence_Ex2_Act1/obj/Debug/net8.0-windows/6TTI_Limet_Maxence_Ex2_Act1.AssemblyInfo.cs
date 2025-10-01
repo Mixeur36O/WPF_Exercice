@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("6TTI_Limet_Maxence_Ex1_Act1")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("6TTI_Limet_Maxence_Ex2_Act1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3898cb9708aff84bcb784dddcf9e361cfa73b0b6")]
-[assembly: System.Reflection.AssemblyProductAttribute("6TTI_Limet_Maxence_Ex1_Act1")]
-[assembly: System.Reflection.AssemblyTitleAttribute("6TTI_Limet_Maxence_Ex1_Act1")]
+[assembly: System.Reflection.AssemblyProductAttribute("6TTI_Limet_Maxence_Ex2_Act1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("6TTI_Limet_Maxence_Ex2_Act1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
