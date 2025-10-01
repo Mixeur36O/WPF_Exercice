@@ -1,0 +1,34 @@
+﻿<Window x:Class="_6TTI_Limet_Maxence_Event1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_Limet_Maxence_Event1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="280" Background="#FF909090" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--Première ligne-->
+        <TextBlock Text="A" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+        <TextBox Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <!--Deuxième ligne-->
+        <TextBlock Grid.Row="1" Text="B" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <!--Troisième ligne-->
+        <TextBlock Grid.Row="2" Text="C" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <!--Dernière ligne-->
+        <Button Grid.ColumnSpan="2" Grid.Row="3" Content="CALCULER" Height="55" Width="179" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left" Margin="15,0,0,0" Background="#FFC3BFBF"/>
+
+
+    </Grid>
+</Window>
