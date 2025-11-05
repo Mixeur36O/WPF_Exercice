@@ -19,13 +19,13 @@
         </Grid.RowDefinitions>
         <!--Première ligne-->
         <TextBlock Text="A" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
-        <TextBox Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="TextA" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <!--Deuxième ligne-->
         <TextBlock Grid.Row="1" Text="B" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="TextB" Grid.Row="1" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <!--Troisième ligne-->
         <TextBlock Grid.Row="2" Text="C" TextAlignment="Center" VerticalAlignment="Center" FontSize="36" FontWeight="Bold"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="TextC" Grid.Row="2" Grid.Column="1" Height="50" Width="125" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <!--Dernière ligne-->
         <Button x:Name="btnCalculer" Grid.ColumnSpan="2" Grid.Row="3" Content="CALCULER" Height="55" Width="179" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left" Margin="15,0,0,0" Background="#FFC3BFBF"/>
 

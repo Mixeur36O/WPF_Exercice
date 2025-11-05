@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|h:\\6tti\\wpf\\wpf_exercice\\event1\\6tti_limet_maxence_event1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|h:\\6tti\\wpf\\wpf_exercice\\event1\\6tti_limet_maxence_event1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|h:\\6tti\\wpf\\wpf_exercice\\event1\\6tti_limet_maxence_event1\\obj\\debug\\net8.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E41503-465A-4825-B8EE-7281299A385D}|6TTI_Limet_Maxence_Event1.csproj|solutionrelative:obj\\debug\\net8.0-windows\\app.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "H:\\6TTI\\WPF\\WPF_Exercice\\Event1\\6TTI_Limet_Maxence_Event1\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ToolTip": "H:\\6TTI\\WPF\\WPF_Exercice\\Event1\\6TTI_Limet_Maxence_Event1\\obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\App.g.i.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewDAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:27:02.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "H:\\6TTI\\WPF\\WPF_Exercice\\Event1\\6TTI_Limet_Maxence_Event1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "H:\\6TTI\\WPF\\WPF_Exercice\\Event1\\6TTI_Limet_Maxence_Event1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:26:53.715Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +78,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "H:\\6TTI\\WPF\\WPF_Exercice\\Event1\\6TTI_Limet_Maxence_Event1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAtwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T07:10:27.692Z",
               "EditorCaption": ""

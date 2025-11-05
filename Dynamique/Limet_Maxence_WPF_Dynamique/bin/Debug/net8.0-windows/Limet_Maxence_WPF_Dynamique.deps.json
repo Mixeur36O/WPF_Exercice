@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Limet_Maxence_WPF_Dynamique/1.0.0": {
+        "runtime": {
+          "Limet_Maxence_WPF_Dynamique.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Limet_Maxence_WPF_Dynamique/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

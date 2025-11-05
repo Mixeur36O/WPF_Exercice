@@ -19,16 +19,27 @@ namespace _6TTI_Limet_Maxence_Event1
         public MainWindow()
         {
             InitializeComponent();
+            TextA.PreviewTextInput += new TextCompositionEventHandler(VerifTextEntree);
+            TextB.PreviewTextInput += new TextCompositionEventHandler(VerifTextEntree);
+            TextC.PreviewTextInput += new TextCompositionEventHandler(VerifTextEntree);
             btnCalculer.Click += new RoutedEventHandler(BtnCalculer_Click);
         }
 
+
+
+
         private void BtnCalculer_Click(object sender, RoutedEventArgs e)
         {
-            int a = 0;
-            int b = 0;
-            int c = 0;
-            string message = "";
-            ResoudTrinome(a,b,c,out message);    
+            double a;
+            double b;
+            double c;
+            string message;
+
+            if (double.TryParse(TextA.Text, out a) && double.TryParse(TextA.Text, out b) && double.TryParse(TextA.Text, out c))
+            {
+                ResoudTrinome(a, b, c, out message);
+            }
+  
         }
         private void ResoudTrinome(double a, double b, double c, out string message)
         {
@@ -49,6 +60,30 @@ namespace _6TTI_Limet_Maxence_Event1
                 double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
                 message = "Il y a deux solutions " + x1 + " et " + x2;
             }
+        }
+
+        private void VerifTextEntree(object sender, TextCompositionEventArgs e)
+        {
+            if (e.Text !="," && !EstEntier(e.Text))
+            {
+                e.Handled = true;
+            }
+            else
+            {
+                if (((TextBox)sender).Text.IndexOf(e.Text) > -1)
+                {
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private bool EstEntier(string texteUser)
+        {
+            if (!int.TryParse(texteUser, out int valeur))
+            {
+                return false;
+            }
+            return true;
         }
     }
 }
