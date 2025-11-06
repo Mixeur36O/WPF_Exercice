@@ -24,10 +24,14 @@ namespace LImet_Maxence_Dynamique_Ex2
 
         public void prepareInterface()
         {
+            //Instancier variables et tableau
+            int indicateurC = 0;
+            int indicateurL = 0;
             ColumnDefinition[] colDef = new ColumnDefinition[4];
             RowDefinition[] rowDef = new RowDefinition[4];
             TextBlock[,] textBlock = new TextBlock[4,4];
 
+            //Faire la grille
             for (int i = 0; i < 4; i++)
             {
                 colDef[i] = new ColumnDefinition();
@@ -36,13 +40,26 @@ namespace LImet_Maxence_Dynamique_Ex2
                 grdMain.RowDefinitions.Add(rowDef[i]);
             }
 
+            //Faire apparaître les cases de ?
             for (int iColonne = 0; iColonne < textBlock.GetLength(0); iColonne++)
             {
                 for (int iLigne = 0; iLigne < textBlock.GetLength(1); iLigne++)
                 {
+                    textBlock[iColonne, iLigne] = new TextBlock();
                     textBlock[iColonne, iLigne].Text = "?";
+                    textBlock[iColonne, iLigne].HorizontalAlignment = HorizontalAlignment.Center;
+                    textBlock[iColonne,iLigne].VerticalAlignment = VerticalAlignment.Center;
+                    textBlock[iColonne, iLigne].FontSize = 50;
+                    Grid.SetColumn(textBlock[iColonne, iLigne],indicateurC);
+                    grdMain.Children.Add(textBlock[iColonne,iLigne]);
+                    indicateurC += 1;
+                    Grid.SetRow(textBlock[iColonne, iLigne], indicateurL);
                 }
+                indicateurC = 0;
+                indicateurL += 1;
             }
+
+
 
 
         }
