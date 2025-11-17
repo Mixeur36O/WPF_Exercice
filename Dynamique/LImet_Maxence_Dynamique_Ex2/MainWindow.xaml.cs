@@ -16,6 +16,7 @@ namespace LImet_Maxence_Dynamique_Ex2
     /// </summary>
     public partial class MainWindow : Window
     {
+        TextBlock[,] textBlock = new TextBlock[4, 4];
         public MainWindow()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace LImet_Maxence_Dynamique_Ex2
             int indicateurL = 0;
             ColumnDefinition[] colDef = new ColumnDefinition[4];
             RowDefinition[] rowDef = new RowDefinition[4];
-            TextBlock[,] textBlock = new TextBlock[4,4];
+            
 
             //Faire la grille
             for (int i = 0; i < 4; i++)
@@ -48,10 +49,11 @@ namespace LImet_Maxence_Dynamique_Ex2
                     textBlock[iColonne, iLigne] = new TextBlock();
                     textBlock[iColonne, iLigne].Text = "?";
                     textBlock[iColonne, iLigne].HorizontalAlignment = HorizontalAlignment.Center;
-                    textBlock[iColonne,iLigne].VerticalAlignment = VerticalAlignment.Center;
+                    textBlock[iColonne, iLigne].VerticalAlignment = VerticalAlignment.Center;
                     textBlock[iColonne, iLigne].FontSize = 50;
-                    Grid.SetColumn(textBlock[iColonne, iLigne],indicateurC);
-                    grdMain.Children.Add(textBlock[iColonne,iLigne]);
+                    textBlock[iColonne, iLigne].MouseDown += new MouseButtonEventHandler(TextBlock_MouseDown);
+                    Grid.SetColumn(textBlock[iColonne, iLigne], indicateurC);
+                    grdMain.Children.Add(textBlock[iColonne, iLigne]);
                     indicateurC += 1;
                     Grid.SetRow(textBlock[iColonne, iLigne], indicateurL);
                 }
@@ -59,9 +61,10 @@ namespace LImet_Maxence_Dynamique_Ex2
                 indicateurL += 1;
             }
 
-
-
-
+        }
+        public void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            ((TextBlock)sender).Text = "X";
         }
     }
 }
