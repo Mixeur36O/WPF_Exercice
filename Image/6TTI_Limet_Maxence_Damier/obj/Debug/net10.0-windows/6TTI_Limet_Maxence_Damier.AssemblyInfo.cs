@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6TTI_Limet_Maxence_Damier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f03ac7d2d763440a4f192c23ab9b5e8b749675fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+826c04a49d636c770db6ae589761f31d59c5743b")]
 [assembly: System.Reflection.AssemblyProductAttribute("6TTI_Limet_Maxence_Damier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6TTI_Limet_Maxence_Damier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
