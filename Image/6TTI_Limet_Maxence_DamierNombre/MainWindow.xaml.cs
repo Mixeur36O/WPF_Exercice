@@ -48,8 +48,8 @@ namespace _6TTI_Limet_Maxence_DamierNombre
                 {
                     button[iColonne, iLigne] = new Button();
                     button[iColonne, iLigne].FontSize = 50;
-                    button[iColonne, iLigne].Height = 100;
-                    button[iColonne, iLigne].Width = 100;
+                    button[iColonne, iLigne].Height = 65;
+                    button[iColonne, iLigne].Width = 65;
                     if (indicateurL % 2 == indicateurC % 2)
                     {
                         button[iColonne, iLigne].Background = Brushes.White;
@@ -64,6 +64,7 @@ namespace _6TTI_Limet_Maxence_DamierNombre
                     button[iColonne, iLigne].HorizontalContentAlignment = HorizontalAlignment.Center;
                     button[iColonne, iLigne].VerticalContentAlignment = VerticalAlignment.Center;
                     button[iColonne, iLigne].FontSize = 20; 
+                    button[iColonne, iLigne].FontWeight = FontWeights.Bold;
                     Grid.SetColumn(button[iColonne, iLigne], indicateurC);
                     grdMain.Children.Add(button[iColonne, iLigne]);
                     indicateurC += 1;
