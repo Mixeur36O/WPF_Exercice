@@ -11,9 +11,7 @@ using System.Windows.Shapes;
 
 namespace _6TTI_Limet_Maxence_DamierChSerp
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         Button[,] button = new Button[10, 10];
